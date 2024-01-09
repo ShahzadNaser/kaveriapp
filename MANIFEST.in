@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include kaveriapp *.css
+recursive-include kaveriapp *.csv
+recursive-include kaveriapp *.html
+recursive-include kaveriapp *.ico
+recursive-include kaveriapp *.js
+recursive-include kaveriapp *.json
+recursive-include kaveriapp *.md
+recursive-include kaveriapp *.png
+recursive-include kaveriapp *.py
+recursive-include kaveriapp *.svg
+recursive-include kaveriapp *.txt
+recursive-exclude kaveriapp *.pyc
